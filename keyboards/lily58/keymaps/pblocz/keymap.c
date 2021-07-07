@@ -152,7 +152,8 @@ void oled_task_user(void) {
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 #ifdef CONSOLE_ENABLE
   if (record->event.pressed) {
-    uprintf("0x%04X,%u,%u,%u\n", keycode, record->event.key.row, record->event.key.col, get_highest_layer(layer_state));
+    // keycode, row, col, layer, pressed, time
+    uprintf("0x%04X,%u,%u,%u,%b,%u\n", keycode, record->event.key.row, record->event.key.col, get_highest_layer(layer_state), record->event.pressed, record->event.time);
   }
 #endif
 
