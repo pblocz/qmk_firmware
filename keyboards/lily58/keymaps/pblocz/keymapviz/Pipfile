@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+keymapviz = "*"
+adafruit-circuitpython-hid = "*"
+
+[dev-packages]
+ipykernel = "*"
+pipenv-shebang = "*"
+
+[requires]
+python_version = "3.9"

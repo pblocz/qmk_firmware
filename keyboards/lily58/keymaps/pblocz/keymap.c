@@ -1,3 +1,9 @@
+// TODO: swap ~=
+// Change FN by number in lower
+// add home, end to raise
+// add FN to number layer in both lower and raise
+// Make space shift with mod tap
+
 #include QMK_KEYBOARD_H
 
 #ifdef CONSOLE_ENABLE
