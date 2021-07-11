@@ -53,3 +53,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // Apply the modifier on keys that are tapped during a short hold of a modtap
 #define PERMISSIVE_HOLD
+
+#define AUTO_SHIFT_TIMEOUT 175
+#define NO_AUTO_SHIFT_ALPHA
