@@ -56,3 +56,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define AUTO_SHIFT_TIMEOUT 175
 #define NO_AUTO_SHIFT_ALPHA
+
+// Configuration for leader
+#define LEADER_TIMEOUT 500
+#define LEADER_PER_KEY_TIMING
+
+
+#define BIT_C_ENABLE
